@@ -37,9 +37,11 @@ if __name__ == "__main__":
     if len(sys.argv) == 2 and sys.argv[1] == "sync":
         print(f"executing sync function, it wll take some time...")
         sync_example()
+
     elif len(sys.argv) == 2 and sys.argv[1] == "async":
         print(f"executing async funtion...\n")
         asyncio.run(chat())
+        
     else:
         print("valid options:")
         print(f"{sys.argv[0]} sync|async")

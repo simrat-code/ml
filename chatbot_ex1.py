@@ -1,4 +1,5 @@
-from langchain.chat_models import ChatOllama
+# from langchain_community.chat_models import ChatOllama
+from langchain_ollama import ChatOllama
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 

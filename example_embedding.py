@@ -1,4 +1,6 @@
-
+#
+# source: https://www.datacamp.com/tutorial/chromadb-tutorial-step-by-step-guide
+#
 import chromadb
 import ollama
 from datetime import datetime

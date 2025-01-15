@@ -21,6 +21,8 @@ collection = client.get_or_create_collection(name="docs")
 for i, d in enumerate(documents):
     response = ollama.embeddings(model="llama3.2", prompt=d)
     embedding = response["embedding"]
+    print(type(embedding))
+    print(f"embedding {i}: {embedding[:10]}")
 
     collection.add(
         ids = [str(i)],

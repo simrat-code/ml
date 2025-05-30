@@ -17,14 +17,16 @@ def get_llm():
 
 def method_invocation(system_role):
     llm = get_llm()
-    user_input = input("you: ")
-    message = [
-        ("system", system_role),
-        ("human", user_input)        
-    ]
-    resp = llm.invoke(message)
-    print(f"returned obj: {type(resp)}, {resp}")
-    print(f"AI: {resp.content}")
+    while True:
+        user_input = input("you [exit]: ")
+        if user_input == "exit" or not user_input: break
+        message = [
+            ("system", system_role),
+            ("human", user_input)        
+        ]
+        resp = llm.invoke(message)
+        print(f"returned obj: {type(resp)}, {resp}")
+        print(f"AI: {resp.content}")
 
 
 if __name__ == "__main__":
@@ -51,7 +53,7 @@ if __name__ == "__main__":
     print(f"len: {len(system_role)}, system role: {system_role}")
 
     if not system_role:
-        print("since no role defined, using default as translator")
+        print("since no role defined, using default as translator: expert python programmer")
         system_role = "you are an experienced python programmer"
         print(f"system role: {system_role}")
 

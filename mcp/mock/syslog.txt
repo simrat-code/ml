@@ -1,0 +1,49 @@
+Jan 15 08:12:01 auth-srv sshd[14201]: Server listening on 0.0.0.0 port 22.
+Jan 15 08:12:01 auth-srv sshd[14201]: Server listening on :: port 22.
+Jan 15 08:14:22 auth-srv sshd[14210]: Received disconnect from 192.168.1.105 port 54102:11: client disconnected
+Jan 15 08:14:22 auth-srv sshd[14210]: Disconnected from user admin 192.168.1.105 port 54102
+Jan 15 08:15:03 auth-srv sshd[14215]: Accepted password for admin from 192.168.1.105 port 54110 ssh2
+Jan 15 08:15:03 auth-srv sshd[14215]: pam_unix(sshd:session): session opened for user admin(uid=1000) by (uid=0)
+Jan 15 08:22:11 auth-srv sshd[14250]: Invalid user postgres from 198.51.100.42 port 41200
+Jan 15 08:22:11 auth-srv sshd[14250]: Failed password for invalid user postgres from 198.51.100.42 port 41200 ssh2
+Jan 15 08:22:13 auth-srv sshd[14252]: Invalid user oracle from 198.51.100.42 port 41202
+Jan 15 08:22:13 auth-srv sshd[14252]: Failed password for invalid user oracle from 198.51.100.42 port 41202 ssh2
+Jan 15 08:22:15 auth-srv sshd[14254]: Failed password for root from 198.51.100.42 port 41204 ssh2
+Jan 15 08:22:18 auth-srv sshd[14256]: Failed password for root from 198.51.100.42 port 41206 ssh2
+Jan 15 08:22:20 auth-srv sshd[14258]: Failed password for root from 198.51.100.42 port 41208 ssh2
+Jan 15 08:22:21 auth-srv sshd[14258]: MAXIMUM AUTHENTICATION TRIES EXCEEDED for root from 198.51.100.42 port 41208 ssh2 [preauth]
+Jan 15 08:22:21 auth-srv sshd[14258]: Disconnect attack detected from 198.51.100.42 port 41208: Too many authentication failures [preauth]
+Jan 15 08:22:25 auth-srv fail2ban.actions[1105]: NOTICE [sshd] Ban 198.51.100.42
+Jan 15 08:31:40 auth-srv sshd[14302]: Connection closed by 203.0.113.88 port 51104 [preauth]
+Jan 15 08:35:12 auth-srv sshd[14315]: Connection refused by 203.0.113.101 port 22 [preauth]
+Jan 15 08:40:01 auth-srv sshd[14330]: Accepted publickey for deploy from 10.0.4.15 port 38920 ssh2: RSA SHA256:d8N1z4kL9Pq2+XyM/7B8vC0dE
+Jan 15 08:40:01 auth-srv sshd[14330]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+Jan 15 08:42:15 auth-srv sshd[14330]: pam_unix(sshd:session): session closed for user deploy
+Jan 15 08:50:00 auth-srv sshd[14380]: Connection from 192.168.1.105 port 55432 on 192.168.1.10 port 22 rdomain ""
+Jan 15 08:50:02 auth-srv sshd[14380]: Failed publickey for admin from 192.168.1.105 port 55432 ssh2: RSA SHA256:4aK9zL0Pq2...
+Jan 15 08:50:05 auth-srv sshd[14380]: Accepted password for admin from 192.168.1.105 port 55432 ssh2
+Jan 15 08:50:05 auth-srv sshd[14380]: pam_unix(sshd:session): session opened for user admin(uid=1000) by (uid=0)
+Jan 15 08:51:10 auth-srv sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/su -
+Jan 15 08:55:22 auth-srv sshd[14405]: Did not receive identification string from 198.51.100.99 port 60123
+Jan 15 09:01:05 auth-srv sshd[14420]: Invalid user test from 198.51.100.150 port 33100
+Jan 15 09:01:05 auth-srv sshd[14420]: input_userauth_request: invalid user test [preauth]
+Jan 15 09:01:06 auth-srv sshd[14420]: Failed password for invalid user test from 198.51.100.150 port 33100 ssh2
+Jan 15 09:01:07 auth-srv sshd[14420]: Received disconnect from 198.51.100.150 port 33100:11: Bye Bye [preauth]
+Jan 15 09:10:44 auth-srv sshd[14460]: userauth_pubkey: key type ssh-dss not in PubkeyAcceptedAlgorithms [preauth]
+Jan 15 09:10:44 auth-srv sshd[14460]: Connection closed by authenticating user legacy_user 10.0.4.50 port 49812 [preauth]
+Jan 15 09:15:30 auth-srv sshd[14488]: Accepted publickey for secops from 10.0.1.20 port 52140 ssh2: ED25519 SHA256:x9T3vM2pQ4...
+Jan 15 09:15:30 auth-srv sshd[14488]: pam_unix(sshd:session): session opened for user secops(uid=1005) by (uid=0)
+Jan 15 09:15:31 auth-srv sshd[14490]: User secops from 10.0.1.20 not allowed because not listed in AllowUsers
+Jan 15 09:15:31 auth-srv sshd[14490]: input_userauth_request: invalid user secops [preauth]
+Jan 15 09:20:00 auth-srv fail2ban.actions[1105]: NOTICE [sshd] Unban 198.51.100.42
+Jan 15 09:21:12 auth-srv sshd[14510]: Invalid user guest from 198.51.100.42 port 43001
+Jan 15 09:21:12 auth-srv sshd[14510]: Failed password for invalid user guest from 198.51.100.42 port 43001 ssh2
+Jan 15 09:21:15 auth-srv sshd[14512]: Failed password for root from 198.51.100.42 port 43003 ssh2
+Jan 15 09:21:17 auth-srv sshd[14514]: Failed password for root from 198.51.100.42 port 43005 ssh2
+Jan 15 09:21:18 auth-srv fail2ban.actions[1105]: NOTICE [sshd] Ban 198.51.100.42
+Jan 15 09:30:00 auth-srv sshd[14550]: Timeout before authentication for 203.0.113.200 port 58911 [preauth]
+Jan 15 09:45:10 auth-srv sshd[14601]: pam_unix(sshd:session): session closed for user admin
+Jan 15 09:45:11 auth-srv sshd[14601]: Received disconnect from 192.168.1.105 port 55432:11: disconnected by user
+Jan 15 10:00:00 auth-srv sshd[14650]: Received signal 15; terminating.
+Jan 15 10:00:01 auth-srv sshd[14688]: Server listening on 0.0.0.0 port 22.
+Jan 15 10:00:01 auth-srv sshd[14688]: Server listening on :: port 22.

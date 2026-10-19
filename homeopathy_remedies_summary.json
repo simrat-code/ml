@@ -1,0 +1,1058 @@
+{
+"metadata": {
+"title": "Top 50 Homeopathic Remedies Reference Guide",
+"description": "Structured quick reference for key indications, modalities, and remedy relationships for vector database ingestion.",
+"disclaimer": "This dataset is provided for educational and informational purposes only. It is not intended as medical advice, diagnosis, or treatment. Homeopathic remedies are not substitutes for evidence-based medical care, standard clinical practice, or emergency medical treatment. Always consult a licensed healthcare professional or physician for medical conditions, serious symptoms, or health concerns."
+},
+"remedy_relationships_summary": {
+"complementary_pairs": [
+{
+"remedies": ["Arnica Montana", "Rhus Toxicodendron", "Hypericum Perforatum"],
+"note": "Trauma sequence: Arnica for soft tissue bruising/shock, followed by Rhus Tox for joint/tendon stiffness or Hypericum for nerve injury."
+},
+{
+"remedies": ["Aconitum Napellus", "Spongia Tosta", "Hepar Sulphuris Calcareum"],
+"note": "The Croup Trio: Aconite initially for sudden dry fever, Spongia for barking cough, Hepar Sulph for loose/purulent stage."
+},
+{
+"remedies": ["Belladonna", "Calcarea Carbonica"],
+"note": "Calcarea Carbonica acts as the chronic complement to acute Belladonna complaints."
+},
+{
+"remedies": ["Bryonia Alba", "Rhus Toxicodendron"],
+"note": "Acute-to-chronic dynamic for rheumatic/joint pains (Bryonia worse by motion; Rhus Tox relieved by motion)."
+},
+{
+"remedies": ["Pulsatilla Nigricans", "Silicea"],
+"note": "Silicea acts as the deep, chronic complement to acute Pulsatilla conditions."
+},
+{
+"remedies": ["Allium Cepa", "Phosphorus"],
+"note": "Complementary in allergic rhinitis and upper respiratory tract infections spreading downward."
+},
+{
+"remedies": ["Ignatia Amara", "Natrum Muriaticum"],
+"note": "Ignatia for acute grief/shock; Natrum Mur as its chronic complement for suppressed sorrow."
+}
+],
+"incompatible_pairs": [
+{
+"remedies": ["Apis Mellifica", "Rhus Toxicodendron"],
+"reason": "Apis aggravated by heat and relieved by cold; Rhus Tox aggravated by cold/damp and relieved by heat. They act antidotally on each other."
+},
+{
+"remedies": ["Causticum", "Phosphorus"],
+"reason": "Opposing constitutional spheres of action; can neutralize each other's therapeutic efficacy."
+},
+{
+"remedies": ["Mercurius Solubilis", "Silicea"],
+"reason": "Deep, conflicting actions on suppurative (pus-forming) tissue processes."
+},
+{
+"remedies": ["Calcarea Carbonica", "Sulphur"],
+"reason": "Caution advised when administering Sulphur immediately following Calcarea Carbonica without an intervening remedy."
+}
+]
+},
+"remedies": [
+{
+"id": 1,
+"name": "Aconitum Napellus",
+"abbreviation": "Acon.",
+"key_indications": [
+"Sudden onset of acute symptoms",
+"High fever with dry, hot skin",
+"Intense anxiety, restlessness, and acute fear of death",
+"Ailments from sudden exposure to cold, dry winds"
+],
+"modalities": {
+"worse": ["Cold, dry winds", "Panic", "Night", "Warm room"],
+"better": ["Rest", "Open air"]
+},
+"relationships": {
+"complementary": ["Coffea Cruda", "Sulphur"],
+"antidotes": ["Coffea Cruda", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 2,
+"name": "Aesculus Hippocastanum",
+"abbreviation": "Aesc.",
+"key_indications": [
+"Hemorrhoids feeling like sharp sticks or dry needles",
+"Low back pain radiating to hips and sacrum",
+"Dryness and warmth in rectum with fullness"
+],
+"modalities": {
+"worse": ["Walking", "Standing", "After stool"],
+"better": ["Cold applications", "Rest", "Kneeling"]
+},
+"relationships": {
+"complementary": ["Carbo Vegetabilis"],
+"antidotes": ["Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 3,
+"name": "Allium Cepa",
+"abbreviation": "All-c.",
+"key_indications": [
+"Profuse, acrid, burning nasal discharge corroding upper lip",
+"Bland, watery tearing from eyes",
+"Frequent, violent sneezing",
+"Tickling in larynx causing painful cough"
+],
+"modalities": {
+"worse": ["Warm room", "Evening"],
+"better": ["Fresh, cool air", "Open room"]
+},
+"relationships": {
+"complementary": ["Phosphorus", "Pulsatilla Nigricans", "Sarsaparilla"],
+"antidotes": ["Arnica Montana", "Nux Vomica"],
+"incompatible": ["Allium Sativum"]
+}
+},
+{
+"id": 4,
+"name": "Anacardium Orientale",
+"abbreviation": "Anac.",
+"key_indications": [
+"Sensation of a plug or band in various body parts",
+"Dual personality feeling or internal conflict",
+"Sudden loss of memory when stressed",
+"Symptoms temporarily relieved while eating"
+],
+"modalities": {
+"worse": ["When stomach is empty", "Mental exertion", "Emotion"],
+"better": ["While eating and swallowing", "Warmth"]
+},
+"relationships": {
+"complementary": ["Lycopodium Clavatum", "Pulsatilla Nigricans"],
+"antidotes": ["Coffea Cruda", "Juglans Regia"],
+"incompatible": []
+}
+},
+{
+"id": 5,
+"name": "Antimonium Tartaricum",
+"abbreviation": "Ant-t.",
+"key_indications": [
+"Excessive rattling cough with chest full of mucus",
+"Inability or weakness to expectorate phlegm",
+"Drowsiness, weakness, and cold sweat during respiratory distress",
+"Nausea with white coated tongue"
+],
+"modalities": {
+"worse": ["Lying down", "Warm weather", "Warm room", "Milk"],
+"better": ["Sitting erect", "Belching or expectoration"]
+},
+"relationships": {
+"complementary": ["Ipecacuanha", "Baryta Carbonica"],
+"antidotes": ["Pulsatilla Nigricans", "Sepia"],
+"incompatible": []
+}
+},
+{
+"id": 6,
+"name": "Apis Mellifica",
+"abbreviation": "Apis",
+"key_indications": [
+"Stinging, burning pain with marked localized edema or swelling",
+"Absence of thirst during fever or inflammation",
+"Intolerance to heat in any form",
+"Restlessness and clumsiness (dropping objects)"
+],
+"modalities": {
+"worse": ["Heat", "Touch", "After sleep", "Closed warm room"],
+"better": ["Cold applications", "Ice packs", "Uncovering", "Open air"]
+},
+"relationships": {
+"complementary": ["Natrum Muriaticum", "Pulsatilla Nigricans"],
+"antidotes": ["Lachesis Muta", "Plantago"],
+"incompatible": ["Rhus Toxicodendron"]
+}
+},
+{
+"id": 7,
+"name": "Argentum Nitricum",
+"abbreviation": "Arg-n.",
+"key_indications": [
+"Anticipatory anxiety and stage fright",
+"Nervous diarrhea before events or exams",
+"Craving for sweets which aggravate stomach",
+"Sensation of a splinter in throat on swallowing"
+],
+"modalities": {
+"worse": ["Heat", "Sweets", "High places", "Warm room"],
+"better": ["Cool open air", "Firm pressure", "Cold bath"]
+},
+"relationships": {
+"complementary": ["Calcarea Carbonica", "Lycopodium Clavatum", "Pulsatilla Nigricans"],
+"antidotes": ["Natrum Muriaticum"],
+"incompatible": []
+}
+},
+{
+"id": 8,
+"name": "Arnica Montana",
+"abbreviation": "Arn.",
+"key_indications": [
+"Blunt trauma, bruises, hematomas, and sprains",
+"Sore, bruised feeling all over the body",
+"Refusal of medical aid ('I am fine' attitude despite injury)",
+"Bed feels too hard"
+],
+"modalities": {
+"worse": ["Touch", "Motion", "Damp cold", "Rest"],
+"better": ["Lying down", "Head low", "Rest"]
+},
+"relationships": {
+"complementary": ["Hypericum Perforatum", "Rhus Toxicodendron", "Sulphuricum Acidum"],
+"antidotes": ["Camphora"],
+"incompatible": []
+}
+},
+{
+"id": 9,
+"name": "Arsenicum Album",
+"abbreviation": "Ars.",
+"key_indications": [
+"Burning pains relieved by external heat",
+"Extreme restlessness alongside profound physical weakness",
+"High anxiety regarding health, order, and cleanliness",
+"Gastroenteritis/food poisoning with simultaneous vomiting and diarrhea"
+],
+"modalities": {
+"worse": ["Midnight to 2 AM", "Cold air", "Cold drinks/food"],
+"better": ["Heat", "Hot drinks", "Head elevation"]
+},
+"relationships": {
+"complementary": ["Thuja Occidentalis", "Natrum Sulphuricum", "Pyrogenium"],
+"antidotes": ["Nux Vomica", "Camphora"],
+"incompatible": []
+}
+},
+{
+"id": 10,
+"name": "Baptisia Tinctoria",
+"abbreviation": "Bapt.",
+"key_indications": [
+"High fever with rapid prostration and muscular soreness",
+"All excretions (breath, sweat, stool) are offensive",
+"Delirium with sensation of body being scattered or broken into pieces",
+"Dull, dusky red face"
+],
+"modalities": {
+"worse": ["Pressure", "Motion", "Humid heat", "Fog"],
+"better": ["Fresh air"]
+},
+"relationships": {
+"complementary": ["Crotalus Horridus", "Arnica Montana", "Terebinthina"],
+"antidotes": ["Nitricum Acidum"],
+"incompatible": []
+}
+},
+{
+"id": 11,
+"name": "Baryta Carbonica",
+"abbreviation": "Bar-c.",
+"key_indications": [
+"Swollen tonsils with tendency to suppuration/quinsy",
+"Enlargement and hardening of cervical and glandular tissues",
+"Developmental delays, shyness, or lack of confidence in children",
+"Physical and mental decline or memory loss in elderly"
+],
+"modalities": {
+"worse": ["Cold drafts", "Damp air", "Thinking of disease", "Washing affected part"],
+"better": ["Warmth", "Dry weather"]
+},
+"relationships": {
+"complementary": ["Dulcamara", "Psorinum", "Silicea"],
+"antidotes": ["Antimonium Tartaricum"],
+"incompatible": []
+}
+},
+{
+"id": 12,
+"name": "Belladonna",
+"abbreviation": "Bell.",
+"key_indications": [
+"Sudden, violent onset of high fever and inflammation",
+"Throbbing headache with flushed red face and radiant heat",
+"Dilated pupils and glassy eyes",
+"Dry mouth and throat with lack of thirst or desire for cold water only"
+],
+"modalities": {
+"worse": ["Light", "Noise", "Touch", "Motion", "Jarring", "Drafts"],
+"better": ["Sitting semi-erect", "Warm room", "Rest"]
+},
+"relationships": {
+"complementary": ["Calcarea Carbonica"],
+"antidotes": ["Hyoscyamus Niger", "Coffea Cruda", "Hepar Sulphuris"],
+"incompatible": []
+}
+},
+{
+"id": 13,
+"name": "Bryonia Alba",
+"abbreviation": "Bry.",
+"key_indications": [
+"Excessive dryness of all mucous membranes with extreme thirst",
+"Severe stitching pain made worse by the slightest motion",
+"Irritability and anxiety about business or money matters",
+"Dry, painful cough holding the chest during cough"
+],
+"modalities": {
+"worse": ["Any movement", "Heat", "Morning"],
+"better": ["Absolute rest", "Hard pressure on painful area", "Lying on painful side"]
+},
+"relationships": {
+"complementary": ["Rhus Toxicodendron", "Alumina", "Kali Carbonicum"],
+"antidotes": ["Aconitum Napellus", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 14,
+"name": "Calcarea Carbonica",
+"abbreviation": "Calc.",
+"key_indications": [
+"Chilly constitution with cold, damp feet",
+"Profuse sweating, especially around head and neck during sleep",
+"Slow metabolism, weight gain, and sluggish thyroid function",
+"Craving for eggs and indigestible items (chalk, soil)"
+],
+"modalities": {
+"worse": ["Cold", "Dampness", "Physical exertion", "Climbing stairs", "Full moon"],
+"better": ["Dry weather", "Rest", "Lying down"]
+},
+"relationships": {
+"complementary": ["Belladonna", "Rhus Toxicodendron", "Lycopodium Clavatum"],
+"antidotes": ["Camphora"],
+"incompatible": ["Sulphur (when given immediately before/after without intermediate remedy)"]
+}
+},
+{
+"id": 15,
+"name": "Calcarea Phosphorica",
+"abbreviation": "Calc-p.",
+"key_indications": [
+"Slow bone healing after fractures and late dentition in infants",
+"Chronic dissatisfaction and strong desire to travel or change places",
+"Bone, joint, and muscular pains in rapidly growing children",
+"Abdominal cramps in school-aged children"
+],
+"modalities": {
+"worse": ["Cold draft", "Dampness", "Melting snow", "Seasonal changes"],
+"better": ["Warm summer weather", "Dry warmth", "Rest"]
+},
+"relationships": {
+"complementary": ["Ruta Graveolens", "Zincum Metallicum"],
+"antidotes": ["Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 16,
+"name": "Calendula Officinalis",
+"abbreviation": "Calen.",
+"key_indications": [
+"Open wounds, lacerations, burns, and surgical incisions",
+"Promotes healthy granulation tissue and prevents infection/suppuration",
+"Pain out of proportion to injury size",
+"Ruptured muscles or tendons"
+],
+"modalities": {
+"worse": ["Cold weather", "Dampness", "Evening"],
+"better": ["Warmth", "Quiet rest", "Walking or lying still"]
+},
+"relationships": {
+"complementary": ["Arnica Montana", "Hypericum Perforatum", "Symphytum Officinale"],
+"antidotes": ["Chelidonium Majus"],
+"incompatible": []
+}
+},
+{
+"id": 17,
+"name": "Cantharis",
+"abbreviation": "Canth.",
+"key_indications": [
+"Severe burning, cutting UTI or cystitis with constant desire to urinate",
+"Passage of urine drop-by-drop with severe tenesmus",
+"Scalds and thermal burns with rapid blister formation",
+"Extreme irritability and restlessness during pain"
+],
+"modalities": {
+"worse": ["Drinking cold water", "Coffee", "Urination"],
+"better": ["Gentle rubbing", "Warmth", "Lying down"]
+},
+"relationships": {
+"complementary": ["Belladonna", "Mercurius Solubilis"],
+"antidotes": ["Camphora", "Kali Nitricum"],
+"incompatible": []
+}
+},
+{
+"id": 18,
+"name": "Carbo Vegetabilis",
+"abbreviation": "Carb-v.",
+"key_indications": [
+"Severe abdominal bloating and flatulence with upper GI distress",
+"Air-hunger requiring air to be fanned directly at face",
+"Extreme physical collapse, weakness, and cold skin/extremities",
+"Sluggish venous circulation"
+],
+"modalities": {
+"worse": ["Rich or fatty food", "Warm moist weather", "Evening"],
+"better": ["Belching", "Being fanned continuously", "Cool air"]
+},
+"relationships": {
+"complementary": ["Kali Carbonicum", "Drosera Rotundifolia"],
+"antidotes": ["Arsenicum Album", "Camphora"],
+"incompatible": []
+}
+},
+{
+"id": 19,
+"name": "Causticum",
+"abbreviation": "Caust.",
+"key_indications": [
+"Progressive muscular weakness, stiffness, or local paralyses",
+"Chronic hoarseness or loss of voice in singers and speakers",
+"Involuntary leakage of urine when coughing, sneezing, or laughing",
+"Intense sympathy for the suffering of others"
+],
+"modalities": {
+"worse": ["Dry cold air", "Clear winds", "Raw weather"],
+"better": ["Damp wet weather", "Warm drinks", "Heat of bed"]
+},
+"relationships": {
+"complementary": ["Carbo Vegetabilis", "Colocynthis"],
+"antidotes": ["Asafoetida", "Colocynthis"],
+"incompatible": ["Phosphorus"]
+}
+},
+{
+"id": 20,
+"name": "Chamomilla",
+"abbreviation": "Cham.",
+"key_indications": [
+"Extreme irritability, impatience, and violent anger from pain",
+"Hypersensitivity to pain ('unbearable pain')",
+"Teething infants who demand to be carried constantly",
+"One cheek red and hot, the other pale and cold"
+],
+"modalities": {
+"worse": ["Anger", "Coffee", "Heat", "Night time (9 PM to midnight)"],
+"better": ["Being carried or held", "Warm compresses", "Sweating"]
+},
+"relationships": {
+"complementary": ["Belladonna", "Magnesia Phosphorica"],
+"antidotes": ["Pulsatilla Nigricans", "Nux Vomica", "Ignatia Amara"],
+"incompatible": []
+}
+},
+{
+"id": 21,
+"name": "China Officinalis",
+"abbreviation": "Chin.",
+"key_indications": [
+"Extreme debility and weakness from loss of vital fluids (blood, sweat, diarrhea)",
+"Abdominal flatulence with bloating not relieved by belching",
+"Hypersensitivity to light touch, while firm pressure relieves",
+"Periodic fevers or neuralgias"
+],
+"modalities": {
+"worse": ["Light touch", "Drafts", "Loss of fluids", "After eating"],
+"better": ["Hard pressure", "Bending double", "Warmth"]
+},
+"relationships": {
+"complementary": ["Ferrum Metallicum", "Carbo Vegetabilis"],
+"antidotes": ["Arnica Montana", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 22,
+"name": "Cicuta Virosa",
+"abbreviation": "Cicut.",
+"key_indications": [
+"Severe convulsions, spasms, and twitching",
+"Opisthotonos (spine arching backward rigid body position)",
+"Head injuries or spinal irritation triggering neurological symptoms",
+"Desire to eat strange non-food items (chalk, raw turnips)"
+],
+"modalities": {
+"worse": ["Touch", "Noise", "Fright", "Cold"],
+"better": ["Warmth", "Rest"]
+},
+"relationships": {
+"complementary": ["Belladonna", "Cuprum Metallicum"],
+"antidotes": ["Tabacum", "Opium"],
+"incompatible": []
+}
+},
+{
+"id": 23,
+"name": "Cimicifuga / Actaea Racemosa",
+"abbreviation": "Cimic.",
+"key_indications": [
+"Hormonal imbalances, severe dysmenorrhea, and labor pains",
+"Mental state: feeling covered by a heavy black cloud or impending doom",
+"Stiffness and neuralgic pain in neck, upper back, and spine",
+"Infra-mammary pains on left side"
+],
+"modalities": {
+"worse": ["Cold draft", "Motion", "Alcohol", "Menses onset"],
+"better": ["Warmth", "Eating", "Open air"]
+},
+"relationships": {
+"complementary": ["Caulophyllum Thalictroides", "Lilium Tigrinum"],
+"antidotes": ["Aconitum Napellus", "Baptisia Tinctoria"],
+"incompatible": []
+}
+},
+{
+"id": 24,
+"name": "Cina",
+"abbreviation": "Cina",
+"key_indications": [
+"Intestinal worm symptoms: constant picking or boring at nose",
+"Grinding of teeth during sleep",
+"Extreme irritability, tantrums, and touch aversion in children",
+"Dark circles around eyes with variable appetite"
+],
+"modalities": {
+"worse": ["Touch", "Pressure", "Full moon", "Night"],
+"better": ["Lying on stomach or abdomen"]
+},
+"relationships": {
+"complementary": ["Drosera Rotundifolia", "Calcarea Carbonica"],
+"antidotes": ["Camphora"],
+"incompatible": []
+}
+},
+{
+"id": 25,
+"name": "Cocculus Indicus",
+"abbreviation": "Cocc.",
+"key_indications": [
+"Motion sickness, sea-sickness, and nausea from traveling",
+"Extreme dizziness and weakness due to loss of sleep or caregiving ('night-watching')",
+"Hollow or empty sensation in head and abdomen",
+"Slow reflexes and difficulty concentrating"
+],
+"modalities": {
+"worse": ["Motion", "Riding in vehicles", "Loss of sleep", "Cold air"],
+"better": ["Lying down indoors", "Warmth", "Sitting still"]
+},
+"relationships": {
+"complementary": ["Ignatia Amara", "Nux Vomica"],
+"antidotes": ["Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 26,
+"name": "Coffea Cruda",
+"abbreviation": "Coff.",
+"key_indications": [
+"Insomnia due to mental hyperactivity, rapid flow of ideas, or pleasant excitement",
+"Hypersensitivity to pain, touch, sound, and smell",
+"Toothache relieved temporarily by ice water in mouth",
+"Nervous palpitations with excitement"
+],
+"modalities": {
+"worse": ["Excitement", "Noise", "Odors", "Night", "Cold air"],
+"better": ["Lying down", "Ice water held in mouth", "Warmth"]
+},
+"relationships": {
+"complementary": ["Aconitum Napellus", "Chamomilla"],
+"antidotes": ["Nux Vomica", "Ignatia Amara"],
+"incompatible": []
+}
+},
+{
+"id": 27,
+"name": "Colchicum Autumnale",
+"abbreviation": "Colch.",
+"key_indications": [
+"Extreme intolerance to the smell of cooking food (causes severe nausea/fainting)",
+"Gouty inflammation of joints, especially the big toe",
+"Abdominal distension with cold sensation in stomach",
+"Joint pains shifting rapidly"
+],
+"modalities": {
+"worse": ["Motion", "Touch", "Smell of food", "Night"],
+"better": ["Warmth", "Rest", "Stooping"]
+},
+"relationships": {
+"complementary": ["Spigelia Anthelmia"],
+"antidotes": ["Belladonna", "Camphora", "Pulsatilla Nigricans"],
+"incompatible": []
+}
+},
+{
+"id": 28,
+"name": "Colocynthis",
+"abbreviation": "Coloc.",
+"key_indications": [
+"Sharp, agonized cramping abdominal or intestinal pain",
+"Pain forces patient to bend double or press hard against objects",
+"Ailments and stomach colic triggered by anger, indignation, or offense",
+"Sciatica with shooting pains down left leg"
+],
+"modalities": {
+"worse": ["Anger", "Eating or drinking", "Motion"],
+"better": ["Hard pressure", "Bending double", "Warmth"]
+},
+"relationships": {
+"complementary": ["Staphysagria", "Causticum"],
+"antidotes": ["Chamomilla", "Coffea Cruda"],
+"incompatible": []
+}
+},
+{
+"id": 29,
+"name": "Conium Maculatum",
+"abbreviation": "Con.",
+"key_indications": [
+"Vertigo triggered by turning head or eyes, or lying down in bed",
+"Progressive ascending muscular weakness and paralysis",
+"Induration and stony hardening of glands (breast, prostate, lymph nodes)",
+"Ailments from celibacy or suppressed sexual desire"
+],
+"modalities": {
+"worse": ["Turning head or eyes", "Lying down", "Celibacy", "Cold air"],
+"better": ["Letting limbs hang down", "Motion", "Pressure"]
+},
+"relationships": {
+"complementary": ["Causticum", "Baryta Carbonica"],
+"antidotes": ["Nitricum Acidum"],
+"incompatible": []
+}
+},
+{
+"id": 30,
+"name": "Drosera Rotundifolia",
+"abbreviation": "Dros.",
+"key_indications": [
+"Paroxysmal, barking, dry, spasmodic cough",
+"Cough triggers retching, choking, or vomiting of mucus",
+"Tickling sensation in larynx like a feather",
+"Hoarseness with deep, hollow voice"
+],
+"modalities": {
+"worse": ["After midnight", "Lying down", "Talking", "Laughing", "Heat"],
+"better": ["Open air", "Firm chest support during cough"]
+},
+"relationships": {
+"complementary": ["Nux Vomica", "Calcarea Carbonica", "Sulphur"],
+"antidotes": ["Camphora"],
+"incompatible": []
+}
+},
+{
+"id": 31,
+"name": "Dulcamara",
+"abbreviation": "Dulc.",
+"key_indications": [
+"Ailments triggered by sudden change in weather from hot to cold/damp",
+"Catarrhal colds, joint pains, or skin eruptions in autumn",
+"Diarrhea or respiratory issues in damp weather",
+"Urticaria or skin rashes with cold exposure"
+],
+"modalities": {
+"worse": ["Damp cold weather", "Chilly nights", "Rest", "Getting wet"],
+"better": ["Dry heat", "Movement", "Warm weather"]
+},
+"relationships": {
+"complementary": ["Baryta Carbonica", "Calcarea Carbonica"],
+"antidotes": ["Camphora", "Cuprum Metallicum"],
+"incompatible": ["Belladonna (in certain skin/eruption states)"]
+}
+},
+{
+"id": 32,
+"name": "Eupatorium Perfoliatum",
+"abbreviation": "Eup-per.",
+"key_indications": [
+"Intense bone pain ('as if bones were broken') accompanying fevers/flu",
+"Severe muscle aching, soreness, and restlessness with fever",
+"Thirst for cold water before and during chill",
+"Painful eyeballs and frontal headache"
+],
+"modalities": {
+"worse": ["Cold air", "Motion", "Smell of food", "Morning (7-9 AM)"],
+"better": ["Sweating", "Conversing", "Rest"]
+},
+"relationships": {
+"complementary": ["Natrum Muriaticum", "Bryonia Alba"],
+"antidotes": ["Chelidonium Majus"],
+"incompatible": []
+}
+},
+{
+"id": 33,
+"name": "Euphrasia Officinalis",
+"abbreviation": "Euphr.",
+"key_indications": [
+"Profuse, acrid, burning eye discharge (lacrimation)",
+"Bland, non-irritating, watery nasal discharge",
+"Frequent blinking and photophobia (light sensitivity)",
+"Cough only during daytime, relieved by lying down"
+],
+"modalities": {
+"worse": ["Light", "Indoor heat", "Wind", "Evening"],
+"better": ["Dark room", "Open cool air", "Wiping eyes"]
+},
+"relationships": {
+"complementary": ["Pulsatilla Nigricans"],
+"antidotes": ["Camphora"],
+"incompatible": ["Allium Cepa (has opposite acridity pattern)"]
+}
+},
+{
+"id": 34,
+"name": "Gelsemium Sempervirens",
+"abbreviation": "Gels.",
+"key_indications": [
+"Heavy eyelids (ptosis), extreme lethargy, and motor weakness",
+"Trembling of limbs from weakness or emotional fright",
+"Dull, heavy headache starting in neck/occiput extending to forehead",
+"Performance anxiety, stage fright, or bad news reactions"
+],
+"modalities": {
+"worse": ["Bad news", "Damp humid weather", "Anticipation", "Emotion"],
+"better": ["Profuse urination", "Continued motion", "Open air"]
+},
+"relationships": {
+"complementary": ["Argentum Nitricum", "Baptisia Tinctoria"],
+"antidotes": ["Coffea Cruda", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 35,
+"name": "Graphites",
+"abbreviation": "Graph.",
+"key_indications": [
+"Thick, sticky, honey-like oozing fluid from eczema and skin cracks",
+"Cracks/fissures behind ears, corners of mouth, and fingertips",
+"Chronic constipation with large stool covered in mucus",
+"Chilly constitution with tendency to obesity and skin induration"
+],
+"modalities": {
+"worse": ["Cold", "Drafts", "During menses", "Warmth of bed"],
+"better": ["Warmth", "Walking in open air", "Eruptions weeping"]
+},
+"relationships": {
+"complementary": ["Argentum Nitricum", "Causticum", "Tuberculinum"],
+"antidotes": ["Aconitum Napellus", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 36,
+"name": "Hepar Sulphuris Calcareum",
+"abbreviation": "Hep.",
+"key_indications": [
+"Extreme hyper-sensitivity to cold air, drafts, and physical touch",
+"Sharp, splinter-like pains in inflamed tissues or throat",
+"Strong tendency to rapid suppuration and pus formation",
+"Irritable personality with violent impulses when crossed"
+],
+"modalities": {
+"worse": ["Cold air", "Drafts", "Uncovering single limb", "Touch"],
+"better": ["Warmth", "Wrapping up head tightly", "Moist heat"]
+},
+"relationships": {
+"complementary": ["Spongia Tosta", "Silicea"],
+"antidotes": ["Belladonna", "Chamomilla"],
+"incompatible": ["Silicea (when used unmanaged in high potency immediately before)"]
+}
+},
+{
+"id": 37,
+"name": "Hypericum Perforatum",
+"abbreviation": "Hyp.",
+"key_indications": [
+"Injuries to nerve-rich areas (fingertips, toes, spine, coccyx)",
+"Sharp, shooting, radiating pains traveling upward along nerves",
+"Crushed or lacerated extremities with nerve involvement",
+"Phantom limb pain after amputation"
+],
+"modalities": {
+"worse": ["Cold", "Dampness", "Touch", "Jarring", "Fog"],
+"better": ["Bending head backward", "Rubbing affected part"]
+},
+"relationships": {
+"complementary": ["Arnica Montana", "Calendula Officinalis", "Ledum Palustre"],
+"antidotes": ["Arsenicum Album"],
+"incompatible": []
+}
+},
+{
+"id": 38,
+"name": "Ignatia Amara",
+"abbreviation": "Ign.",
+"key_indications": [
+"Acute grief, heartbreak, emotional shock, and silent sorrow",
+"Rapid, paradoxical mood swings and involuntary deep sighing",
+"Sensation of a lump in throat (globus hystericus)",
+"Paradoxical symptoms (e.g., sore throat relieved by swallowing solids)"
+],
+"modalities": {
+"worse": ["Emotional stress", "Grief", "Coffee", "Tobacco", "Consolation"],
+"better": ["Swallowing solid food", "Position change", "Hard pressure"]
+},
+"relationships": {
+"complementary": ["Natrum Muriaticum"],
+"antidotes": ["Pulsatilla Nigricans", "Chamomilla", "Coffea Cruda"],
+"incompatible": []
+}
+},
+{
+"id": 39,
+"name": "Ipecacuanha",
+"abbreviation": "Ip.",
+"key_indications": [
+"Persistent, relentless nausea not relieved by vomiting",
+"Clean, un-coated tongue despite severe GI distress",
+"Excessive salivation during nausea",
+"Spasmodic cough with suffocation, gasping, and wheezing"
+],
+"modalities": {
+"worse": ["Lying down", "Moist warm wind", "Overeating", "Vomiting"],
+"better": ["Open air", "Rest"]
+},
+"relationships": {
+"complementary": ["Antimonium Tartaricum", "Cuprum Metallicum"],
+"antidotes": ["Arnica Montana", "Nux Vomica"],
+"incompatible": []
+}
+},
+{
+"id": 40,
+"name": "Kali Bichromicum",
+"abbreviation": "Kali-bi.",
+"key_indications": [
+"Thick, stringy, tough, yellow-green mucous discharges from any membrane",
+"Sinus headache and pressure localized in tiny, spot-like areas",
+"Deep, punched-out ulcers on mucous membranes or skin",
+"Pain shifting rapidly from joint to joint"
+],
+"modalities": {
+"worse": ["Cold weather", "Beer", "Morning (2 AM to 3 AM)", "Uncovering"],
+"better": ["Heat", "Motion", "Pressure"]
+},
+"relationships": {
+"complementary": ["Arsenicum Album", "Pulsatilla Nigricans"],
+"antidotes": ["Lachesis Muta", "Pulsatilla Nigricans"],
+"incompatible": []
+}
+},
+{
+"id": 41,
+"name": "Lachesis Muta",
+"abbreviation": "Lach.",
+"key_indications": [
+"Symptoms start on left side and move to right side",
+"Extreme intolerance to tight clothing around neck, throat, or waist",
+"Loquacity (excessive talking), suspicion, and jealousy",
+"Symptoms worsen significantly after sleep ('sleeps into aggravation')"
+],
+"modalities": {
+"worse": ["After sleep", "Heat", "Tight neckwear", "Hot drinks"],
+"better": ["Onset of bodily discharges (menses, sweating)", "Cold drinks"]
+},
+"relationships": {
+"complementary": ["Lycopodium Clavatum", "Nitricum Acidum"],
+"antidotes": ["Arsenicum Album", "Belladonna"],
+"incompatible": ["Ammonium Carbonicum"]
+}
+},
+{
+"id": 42,
+"name": "Lycopodium Clavatum",
+"abbreviation": "Lyc.",
+"key_indications": [
+"Symptoms start on right side and move to left side",
+"Excessive abdominal gas and bloating shortly after eating small amounts",
+"Performance anxiety masking underlying dictatorial/bossy behavior",
+"Craving for warm drinks and sweets"
+],
+"modalities": {
+"worse": ["4 PM to 8 PM", "Cold drinks", "Eating small meal"],
+"better": ["Warm drinks", "Motion in open air", "Uncovering head"]
+},
+"relationships": {
+"complementary": ["Lachesis Muta", "Chelidonium Majus", "Pulsatilla Nigricans"],
+"antidotes": ["Camphora", "Pulsatilla Nigricans"],
+"incompatible": []
+}
+},
+{
+"id": 43,
+"name": "Mercurius Solubilis",
+"abbreviation": "Merc.",
+"key_indications": [
+"Profuse, oily, foul-smelling night sweats that do not relieve fever",
+"Excessive salivation at night wetting pillow; metallic mouth taste",
+"Flabby, swollen tongue with indentation of teeth on edges",
+"Extremely sensitive to both heat and cold temperatures ('thermometer')"
+],
+"modalities": {
+"worse": ["Night time", "Extreme heat or cold", "Damp weather", "Bed warmth"],
+"better": ["Moderate even temperatures", "Rest"]
+},
+"relationships": {
+"complementary": ["Belladonna", "Hepar Sulphuris Calcareum"],
+"antidotes": ["Aurum Metallicum", "Hepar Sulphuris Calcareum"],
+"incompatible": ["Silicea"]
+}
+},
+{
+"id": 44,
+"name": "Natrum Muriaticum",
+"abbreviation": "Nat-m.",
+"key_indications": [
+"Reserved, introverted temperament holding onto past grief/rejection",
+"Craving for salt and aversion to bread or slimy foods",
+"Deep vertical crack in center of lower lip; cold sores on lips",
+"Throbbing headache 'like little hammers beating inside skull'"
+],
+"modalities": {
+"worse": ["10 AM to 11 AM", "Sun heat", "Consolation", "Mental exertion"],
+"better": ["Cold bath", "Open air", "Lying on right side", "Fasting"]
+},
+"relationships": {
+"complementary": ["Apis Mellifica", "Ignatia Amara", "Sepia"],
+"antidotes": ["Phosphorus", "Nitricum Acidum"],
+"incompatible": []
+}
+},
+{
+"id": 45,
+"name": "Nux Vomica",
+"abbreviation": "Nux-v.",
+"key_indications": [
+"Ambitious, competitive, irritable, and impatient personality",
+"Digestive trouble from overeating, alcohol, coffee, and sedentary lifestyle",
+"Frequent, ineffective urging for stool or urination",
+"Extreme chilly disposition; cannot get warm even in bed"
+],
+"modalities": {
+"worse": ["Morning on waking", "Stimulants", "Cold air", "Spicy food"],
+"better": ["Short nap", "Evening", "Warm drinks", "Moist heat"]
+},
+"relationships": {
+"complementary": ["Sulphur", "Sepia"],
+"antidotes": ["Coffea Cruda", "Ignatia Amara", "Cocculus Indicus"],
+"incompatible": []
+}
+},
+{
+"id": 46,
+"name": "Phosphorus",
+"abbreviation": "Phos.",
+"key_indications": [
+"Extroverted, sympathetic, impressionable, but easily exhausted",
+"Craving for ice-cold drinks (vomited as soon as warmed in stomach)",
+"Burning sensations in palms, spine, chest, or stomach",
+"Tendency to easy bleeding from small cuts or mucous membranes"
+],
+"modalities": {
+"worse": ["Lying on left side", "Twilight", "Sudden weather change", "Physical exertion"],
+"better": ["Cold drinks", "Dark quiet room", "Sleep", "Eating"]
+},
+"relationships": {
+"complementary": ["Allium Cepa", "Arsenicum Album", "Lycopodium Clavatum"],
+"antidotes": ["Nux Vomica", "Coffea Cruda"],
+"incompatible": ["Causticum"]
+}
+},
+{
+"id": 47,
+"name": "Pulsatilla Nigricans",
+"abbreviation": "Puls.",
+"key_indications": [
+"Changeable physical symptoms and wandering joint pains",
+"Mild, gentle, weeping disposition seeking consolation and affection",
+"Complete thirstlessness even during high fever",
+"Thick, bland, yellow-green mucous discharges"
+],
+"modalities": {
+"worse": ["Warm close room", "Rich or fatty food", "Heat", "Evening"],
+"better": ["Open cool air", "Gentle motion", "Cold food/drink"]
+},
+"relationships": {
+"complementary": ["Silicea", "Lycopodium Clavatum", "Kali Bichromicum"],
+"antidotes": ["Chamomilla", "Coffea Cruda", "Ignatia Amara"],
+"incompatible": []
+}
+},
+{
+"id": 48,
+"name": "Rhus Toxicodendron",
+"abbreviation": "Rhus-t.",
+"key_indications": [
+"Joint and muscle stiffness following the 'rusty hinge' concept",
+"Severe stiffness on initial motion, which gradually eases with continued movement",
+"Extreme physical restlessness; forced to change positions constantly",
+"Red triangular tip on tongue"
+],
+"modalities": {
+"worse": ["Initial motion", "Rest", "Cold damp weather", "Getting wet when hot"],
+"better": ["Continuous movement", "Warm applications", "Warm baths"]
+},
+"relationships": {
+"complementary": ["Bryonia Alba", "Calcarea Carbonica", "Medorrhinum"],
+"antidotes": ["Anacardium Orientale", "Bryonia Alba"],
+"incompatible": ["Apis Mellifica"]
+}
+},
+{
+"id": 49,
+"name": "Silicea",
+"abbreviation": "Sil.",
+"key_indications": [
+"Lack of vital heat; chilly constitution needing warm head wrapping",
+"Promotes expulsion of foreign bodies (splinters, needles, thorn)",
+"Profuse, offensive, sour foot sweat",
+"Yielding disposition with underlying obstinacy ('grit')"
+],
+"modalities": {
+"worse": ["Cold air", "Drafts", "Full moon", "Uncovering head"],
+"better": ["Warmth", "Wrapping head warmly", "Profuse sweating"]
+},
+"relationships": {
+"complementary": ["Pulsatilla Nigricans", "Thuja Occidentalis", "Hepar Sulphuris"],
+"antidotes": ["Camphora", "Fluoricum Acidum"],
+"incompatible": ["Mercurius Solubilis"]
+}
+},
+{
+"id": 50,
+"name": "Sulphur",
+"abbreviation": "Sulph.",
+"key_indications": [
+"Burning sensations (soles of feet, top of head, skin, eyes)",
+"Sticks feet out of bed at night due to burning heat",
+"Messy, unkempt appearance; dislike of bathing or water",
+"Redness of all bodily orifices (lips, eyelids, anus)"
+],
+"modalities": {
+"worse": ["Heat of bed", "Bathing/water", "Standing still", "11 AM stomach emptiness"],
+"better": ["Cool open air", "Dry warm weather", "Motion"]
+},
+"relationships": {
+"complementary": ["Nux Vomica", "Psorinum", "Aconitum Napellus"],
+"antidotes": ["Aconitum Napellus", "Camphora"],
+"incompatible": ["Calcarea Carbonica (if given immediately after Calcarea)"]
+}
+}
+]
+}

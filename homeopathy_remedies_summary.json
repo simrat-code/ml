@@ -59,7 +59,7 @@
 "id": 1,
 "name": "Aconitum Napellus",
 "abbreviation": "Acon.",
-"key_indications": [
+"key_symptoms": [
 "Sudden onset of acute symptoms",
 "High fever with dry, hot skin",
 "Intense anxiety, restlessness, and acute fear of death",
@@ -79,7 +79,7 @@
 "id": 2,
 "name": "Aesculus Hippocastanum",
 "abbreviation": "Aesc.",
-"key_indications": [
+"key_symptoms": [
 "Hemorrhoids feeling like sharp sticks or dry needles",
 "Low back pain radiating to hips and sacrum",
 "Dryness and warmth in rectum with fullness"
@@ -98,7 +98,7 @@
 "id": 3,
 "name": "Allium Cepa",
 "abbreviation": "All-c.",
-"key_indications": [
+"key_symptoms": [
 "Profuse, acrid, burning nasal discharge corroding upper lip",
 "Bland, watery tearing from eyes",
 "Frequent, violent sneezing",
@@ -118,7 +118,7 @@
 "id": 4,
 "name": "Anacardium Orientale",
 "abbreviation": "Anac.",
-"key_indications": [
+"key_symptoms": [
 "Sensation of a plug or band in various body parts",
 "Dual personality feeling or internal conflict",
 "Sudden loss of memory when stressed",
@@ -138,7 +138,7 @@
 "id": 5,
 "name": "Antimonium Tartaricum",
 "abbreviation": "Ant-t.",
-"key_indications": [
+"key_symptoms": [
 "Excessive rattling cough with chest full of mucus",
 "Inability or weakness to expectorate phlegm",
 "Drowsiness, weakness, and cold sweat during respiratory distress",
@@ -158,7 +158,7 @@
 "id": 6,
 "name": "Apis Mellifica",
 "abbreviation": "Apis",
-"key_indications": [
+"key_symptoms": [
 "Stinging, burning pain with marked localized edema or swelling",
 "Absence of thirst during fever or inflammation",
 "Intolerance to heat in any form",
@@ -178,7 +178,7 @@
 "id": 7,
 "name": "Argentum Nitricum",
 "abbreviation": "Arg-n.",
-"key_indications": [
+"key_symptoms": [
 "Anticipatory anxiety and stage fright",
 "Nervous diarrhea before events or exams",
 "Craving for sweets which aggravate stomach",
@@ -198,7 +198,7 @@
 "id": 8,
 "name": "Arnica Montana",
 "abbreviation": "Arn.",
-"key_indications": [
+"key_symptoms": [
 "Blunt trauma, bruises, hematomas, and sprains",
 "Sore, bruised feeling all over the body",
 "Refusal of medical aid ('I am fine' attitude despite injury)",
@@ -218,7 +218,7 @@
 "id": 9,
 "name": "Arsenicum Album",
 "abbreviation": "Ars.",
-"key_indications": [
+"key_symptoms": [
 "Burning pains relieved by external heat",
 "Extreme restlessness alongside profound physical weakness",
 "High anxiety regarding health, order, and cleanliness",
@@ -238,7 +238,7 @@
 "id": 10,
 "name": "Baptisia Tinctoria",
 "abbreviation": "Bapt.",
-"key_indications": [
+"key_symptoms": [
 "High fever with rapid prostration and muscular soreness",
 "All excretions (breath, sweat, stool) are offensive",
 "Delirium with sensation of body being scattered or broken into pieces",
@@ -258,7 +258,7 @@
 "id": 11,
 "name": "Baryta Carbonica",
 "abbreviation": "Bar-c.",
-"key_indications": [
+"key_symptoms": [
 "Swollen tonsils with tendency to suppuration/quinsy",
 "Enlargement and hardening of cervical and glandular tissues",
 "Developmental delays, shyness, or lack of confidence in children",
@@ -278,7 +278,7 @@
 "id": 12,
 "name": "Belladonna",
 "abbreviation": "Bell.",
-"key_indications": [
+"key_symptoms": [
 "Sudden, violent onset of high fever and inflammation",
 "Throbbing headache with flushed red face and radiant heat",
 "Dilated pupils and glassy eyes",
@@ -298,7 +298,7 @@
 "id": 13,
 "name": "Bryonia Alba",
 "abbreviation": "Bry.",
-"key_indications": [
+"key_symptoms": [
 "Excessive dryness of all mucous membranes with extreme thirst",
 "Severe stitching pain made worse by the slightest motion",
 "Irritability and anxiety about business or money matters",
@@ -318,7 +318,7 @@
 "id": 14,
 "name": "Calcarea Carbonica",
 "abbreviation": "Calc.",
-"key_indications": [
+"key_symptoms": [
 "Chilly constitution with cold, damp feet",
 "Profuse sweating, especially around head and neck during sleep",
 "Slow metabolism, weight gain, and sluggish thyroid function",
@@ -338,7 +338,7 @@
 "id": 15,
 "name": "Calcarea Phosphorica",
 "abbreviation": "Calc-p.",
-"key_indications": [
+"key_symptoms": [
 "Slow bone healing after fractures and late dentition in infants",
 "Chronic dissatisfaction and strong desire to travel or change places",
 "Bone, joint, and muscular pains in rapidly growing children",
@@ -358,7 +358,7 @@
 "id": 16,
 "name": "Calendula Officinalis",
 "abbreviation": "Calen.",
-"key_indications": [
+"key_symptoms": [
 "Open wounds, lacerations, burns, and surgical incisions",
 "Promotes healthy granulation tissue and prevents infection/suppuration",
 "Pain out of proportion to injury size",
@@ -378,7 +378,7 @@
 "id": 17,
 "name": "Cantharis",
 "abbreviation": "Canth.",
-"key_indications": [
+"key_symptoms": [
 "Severe burning, cutting UTI or cystitis with constant desire to urinate",
 "Passage of urine drop-by-drop with severe tenesmus",
 "Scalds and thermal burns with rapid blister formation",
@@ -398,7 +398,7 @@
 "id": 18,
 "name": "Carbo Vegetabilis",
 "abbreviation": "Carb-v.",
-"key_indications": [
+"key_symptoms": [
 "Severe abdominal bloating and flatulence with upper GI distress",
 "Air-hunger requiring air to be fanned directly at face",
 "Extreme physical collapse, weakness, and cold skin/extremities",
@@ -418,7 +418,7 @@
 "id": 19,
 "name": "Causticum",
 "abbreviation": "Caust.",
-"key_indications": [
+"key_symptoms": [
 "Progressive muscular weakness, stiffness, or local paralyses",
 "Chronic hoarseness or loss of voice in singers and speakers",
 "Involuntary leakage of urine when coughing, sneezing, or laughing",
@@ -438,7 +438,7 @@
 "id": 20,
 "name": "Chamomilla",
 "abbreviation": "Cham.",
-"key_indications": [
+"key_symptoms": [
 "Extreme irritability, impatience, and violent anger from pain",
 "Hypersensitivity to pain ('unbearable pain')",
 "Teething infants who demand to be carried constantly",
@@ -458,7 +458,7 @@
 "id": 21,
 "name": "China Officinalis",
 "abbreviation": "Chin.",
-"key_indications": [
+"key_symptoms": [
 "Extreme debility and weakness from loss of vital fluids (blood, sweat, diarrhea)",
 "Abdominal flatulence with bloating not relieved by belching",
 "Hypersensitivity to light touch, while firm pressure relieves",
@@ -478,7 +478,7 @@
 "id": 22,
 "name": "Cicuta Virosa",
 "abbreviation": "Cicut.",
-"key_indications": [
+"key_symptoms": [
 "Severe convulsions, spasms, and twitching",
 "Opisthotonos (spine arching backward rigid body position)",
 "Head injuries or spinal irritation triggering neurological symptoms",
@@ -498,7 +498,7 @@
 "id": 23,
 "name": "Cimicifuga / Actaea Racemosa",
 "abbreviation": "Cimic.",
-"key_indications": [
+"key_symptoms": [
 "Hormonal imbalances, severe dysmenorrhea, and labor pains",
 "Mental state: feeling covered by a heavy black cloud or impending doom",
 "Stiffness and neuralgic pain in neck, upper back, and spine",
@@ -518,7 +518,7 @@
 "id": 24,
 "name": "Cina",
 "abbreviation": "Cina",
-"key_indications": [
+"key_symptoms": [
 "Intestinal worm symptoms: constant picking or boring at nose",
 "Grinding of teeth during sleep",
 "Extreme irritability, tantrums, and touch aversion in children",
@@ -538,7 +538,7 @@
 "id": 25,
 "name": "Cocculus Indicus",
 "abbreviation": "Cocc.",
-"key_indications": [
+"key_symptoms": [
 "Motion sickness, sea-sickness, and nausea from traveling",
 "Extreme dizziness and weakness due to loss of sleep or caregiving ('night-watching')",
 "Hollow or empty sensation in head and abdomen",
@@ -558,7 +558,7 @@
 "id": 26,
 "name": "Coffea Cruda",
 "abbreviation": "Coff.",
-"key_indications": [
+"key_symptoms": [
 "Insomnia due to mental hyperactivity, rapid flow of ideas, or pleasant excitement",
 "Hypersensitivity to pain, touch, sound, and smell",
 "Toothache relieved temporarily by ice water in mouth",
@@ -578,7 +578,7 @@
 "id": 27,
 "name": "Colchicum Autumnale",
 "abbreviation": "Colch.",
-"key_indications": [
+"key_symptoms": [
 "Extreme intolerance to the smell of cooking food (causes severe nausea/fainting)",
 "Gouty inflammation of joints, especially the big toe",
 "Abdominal distension with cold sensation in stomach",
@@ -598,7 +598,7 @@
 "id": 28,
 "name": "Colocynthis",
 "abbreviation": "Coloc.",
-"key_indications": [
+"key_symptoms": [
 "Sharp, agonized cramping abdominal or intestinal pain",
 "Pain forces patient to bend double or press hard against objects",
 "Ailments and stomach colic triggered by anger, indignation, or offense",
@@ -618,7 +618,7 @@
 "id": 29,
 "name": "Conium Maculatum",
 "abbreviation": "Con.",
-"key_indications": [
+"key_symptoms": [
 "Vertigo triggered by turning head or eyes, or lying down in bed",
 "Progressive ascending muscular weakness and paralysis",
 "Induration and stony hardening of glands (breast, prostate, lymph nodes)",
@@ -638,7 +638,7 @@
 "id": 30,
 "name": "Drosera Rotundifolia",
 "abbreviation": "Dros.",
-"key_indications": [
+"key_symptoms": [
 "Paroxysmal, barking, dry, spasmodic cough",
 "Cough triggers retching, choking, or vomiting of mucus",
 "Tickling sensation in larynx like a feather",
@@ -658,7 +658,7 @@
 "id": 31,
 "name": "Dulcamara",
 "abbreviation": "Dulc.",
-"key_indications": [
+"key_symptoms": [
 "Ailments triggered by sudden change in weather from hot to cold/damp",
 "Catarrhal colds, joint pains, or skin eruptions in autumn",
 "Diarrhea or respiratory issues in damp weather",
@@ -678,7 +678,7 @@
 "id": 32,
 "name": "Eupatorium Perfoliatum",
 "abbreviation": "Eup-per.",
-"key_indications": [
+"key_symptoms": [
 "Intense bone pain ('as if bones were broken') accompanying fevers/flu",
 "Severe muscle aching, soreness, and restlessness with fever",
 "Thirst for cold water before and during chill",
@@ -698,7 +698,7 @@
 "id": 33,
 "name": "Euphrasia Officinalis",
 "abbreviation": "Euphr.",
-"key_indications": [
+"key_symptoms": [
 "Profuse, acrid, burning eye discharge (lacrimation)",
 "Bland, non-irritating, watery nasal discharge",
 "Frequent blinking and photophobia (light sensitivity)",
@@ -718,7 +718,7 @@
 "id": 34,
 "name": "Gelsemium Sempervirens",
 "abbreviation": "Gels.",
-"key_indications": [
+"key_symptoms": [
 "Heavy eyelids (ptosis), extreme lethargy, and motor weakness",
 "Trembling of limbs from weakness or emotional fright",
 "Dull, heavy headache starting in neck/occiput extending to forehead",
@@ -738,7 +738,7 @@
 "id": 35,
 "name": "Graphites",
 "abbreviation": "Graph.",
-"key_indications": [
+"key_symptoms": [
 "Thick, sticky, honey-like oozing fluid from eczema and skin cracks",
 "Cracks/fissures behind ears, corners of mouth, and fingertips",
 "Chronic constipation with large stool covered in mucus",
@@ -758,7 +758,7 @@
 "id": 36,
 "name": "Hepar Sulphuris Calcareum",
 "abbreviation": "Hep.",
-"key_indications": [
+"key_symptoms": [
 "Extreme hyper-sensitivity to cold air, drafts, and physical touch",
 "Sharp, splinter-like pains in inflamed tissues or throat",
 "Strong tendency to rapid suppuration and pus formation",
@@ -778,7 +778,7 @@
 "id": 37,
 "name": "Hypericum Perforatum",
 "abbreviation": "Hyp.",
-"key_indications": [
+"key_symptoms": [
 "Injuries to nerve-rich areas (fingertips, toes, spine, coccyx)",
 "Sharp, shooting, radiating pains traveling upward along nerves",
 "Crushed or lacerated extremities with nerve involvement",
@@ -798,7 +798,7 @@
 "id": 38,
 "name": "Ignatia Amara",
 "abbreviation": "Ign.",
-"key_indications": [
+"key_symptoms": [
 "Acute grief, heartbreak, emotional shock, and silent sorrow",
 "Rapid, paradoxical mood swings and involuntary deep sighing",
 "Sensation of a lump in throat (globus hystericus)",
@@ -818,7 +818,7 @@
 "id": 39,
 "name": "Ipecacuanha",
 "abbreviation": "Ip.",
-"key_indications": [
+"key_symptoms": [
 "Persistent, relentless nausea not relieved by vomiting",
 "Clean, un-coated tongue despite severe GI distress",
 "Excessive salivation during nausea",
@@ -838,7 +838,7 @@
 "id": 40,
 "name": "Kali Bichromicum",
 "abbreviation": "Kali-bi.",
-"key_indications": [
+"key_symptoms": [
 "Thick, stringy, tough, yellow-green mucous discharges from any membrane",
 "Sinus headache and pressure localized in tiny, spot-like areas",
 "Deep, punched-out ulcers on mucous membranes or skin",
@@ -858,7 +858,7 @@
 "id": 41,
 "name": "Lachesis Muta",
 "abbreviation": "Lach.",
-"key_indications": [
+"key_symptoms": [
 "Symptoms start on left side and move to right side",
 "Extreme intolerance to tight clothing around neck, throat, or waist",
 "Loquacity (excessive talking), suspicion, and jealousy",
@@ -878,7 +878,7 @@
 "id": 42,
 "name": "Lycopodium Clavatum",
 "abbreviation": "Lyc.",
-"key_indications": [
+"key_symptoms": [
 "Symptoms start on right side and move to left side",
 "Excessive abdominal gas and bloating shortly after eating small amounts",
 "Performance anxiety masking underlying dictatorial/bossy behavior",
@@ -898,7 +898,7 @@
 "id": 43,
 "name": "Mercurius Solubilis",
 "abbreviation": "Merc.",
-"key_indications": [
+"key_symptoms": [
 "Profuse, oily, foul-smelling night sweats that do not relieve fever",
 "Excessive salivation at night wetting pillow; metallic mouth taste",
 "Flabby, swollen tongue with indentation of teeth on edges",
@@ -918,7 +918,7 @@
 "id": 44,
 "name": "Natrum Muriaticum",
 "abbreviation": "Nat-m.",
-"key_indications": [
+"key_symptoms": [
 "Reserved, introverted temperament holding onto past grief/rejection",
 "Craving for salt and aversion to bread or slimy foods",
 "Deep vertical crack in center of lower lip; cold sores on lips",
@@ -938,7 +938,7 @@
 "id": 45,
 "name": "Nux Vomica",
 "abbreviation": "Nux-v.",
-"key_indications": [
+"key_symptoms": [
 "Ambitious, competitive, irritable, and impatient personality",
 "Digestive trouble from overeating, alcohol, coffee, and sedentary lifestyle",
 "Frequent, ineffective urging for stool or urination",
@@ -958,7 +958,7 @@
 "id": 46,
 "name": "Phosphorus",
 "abbreviation": "Phos.",
-"key_indications": [
+"key_symptoms": [
 "Extroverted, sympathetic, impressionable, but easily exhausted",
 "Craving for ice-cold drinks (vomited as soon as warmed in stomach)",
 "Burning sensations in palms, spine, chest, or stomach",
@@ -978,7 +978,7 @@
 "id": 47,
 "name": "Pulsatilla Nigricans",
 "abbreviation": "Puls.",
-"key_indications": [
+"key_symptoms": [
 "Changeable physical symptoms and wandering joint pains",
 "Mild, gentle, weeping disposition seeking consolation and affection",
 "Complete thirstlessness even during high fever",
@@ -998,7 +998,7 @@
 "id": 48,
 "name": "Rhus Toxicodendron",
 "abbreviation": "Rhus-t.",
-"key_indications": [
+"key_symptoms": [
 "Joint and muscle stiffness following the 'rusty hinge' concept",
 "Severe stiffness on initial motion, which gradually eases with continued movement",
 "Extreme physical restlessness; forced to change positions constantly",
@@ -1018,7 +1018,7 @@
 "id": 49,
 "name": "Silicea",
 "abbreviation": "Sil.",
-"key_indications": [
+"key_symptoms": [
 "Lack of vital heat; chilly constitution needing warm head wrapping",
 "Promotes expulsion of foreign bodies (splinters, needles, thorn)",
 "Profuse, offensive, sour foot sweat",
@@ -1038,7 +1038,7 @@
 "id": 50,
 "name": "Sulphur",
 "abbreviation": "Sulph.",
-"key_indications": [
+"key_symptoms": [
 "Burning sensations (soles of feet, top of head, skin, eyes)",
 "Sticks feet out of bed at night due to burning heat",
 "Messy, unkempt appearance; dislike of bathing or water",
